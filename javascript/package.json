@@ -2,9 +2,12 @@
   "name": "docker-guide",
   "version": "1.0.0",
   "description": "Docker tips guide that was mentioned in https://nullplus.plus podcast",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "node src/index.js",
+    "test": "echo \"Hypothetical Test Command Completed Successfully\"",
+    "test:watch": "echo \"Hypothetical Watch Test Command Completed Successfully\"",
+    "test:coverage": "echo \"Hypothetical Test Coverage Command Completed Successfully\""
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/mohamedluay/docker-guide/issues"
   },
-  "homepage": "https://github.com/mohamedluay/docker-guide#readme"
+  "homepage": "https://github.com/mohamedluay/docker-guide#readme",
+  "dependencies": {
+    "moment": "^2.24.0"
+  }
 }
