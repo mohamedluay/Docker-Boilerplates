@@ -45,8 +45,8 @@ function remove_container {
     docker-compose rm $container
 }
 
-cmd=$1
-subcmd=$2
+cmd="${1-}"
+subcmd="${2-}"
 if [ -z "$cmd" ]; then
     echo "
 Availble Commands        
